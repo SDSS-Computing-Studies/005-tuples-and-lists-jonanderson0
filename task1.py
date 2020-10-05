@@ -25,7 +25,7 @@ The animal at that index is Dog
 
 
 tup =("Cat","Fish","Dog","Bear","Turtle")
-def SortTuple(tup): 
+def Sort(tup): 
       
     n = len(tup) 
       
@@ -38,4 +38,4 @@ def SortTuple(tup):
     return tup
      
           
-print(SortTuple(tup))
+print(Sort(tup))
