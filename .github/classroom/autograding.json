@@ -15,7 +15,7 @@
       "setup": "",
       "run": "python3 task2.py",
       "input": "computer\r\nbug\r\nvirus\r\nmemory\r\nstorage\r\n",
-      "output": "['computer','bug','virus','memory','storage']",
+      "output": "['computer', 'bug', 'virus', 'memory', 'storage']",
       "comparison": "included",
       "timeout": 1,
       "points": 2
