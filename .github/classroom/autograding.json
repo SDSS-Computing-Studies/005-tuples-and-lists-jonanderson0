@@ -54,10 +54,10 @@
       "name": "Problem 2b",
       "setup": "",
       "run": "python3 problem2.py",
-      "input": "apple\r\n",
+      "input": "apple",
       "output": "['cherry', 'kiwi', 'banana', 'strawberry', 'kiwi', 'blueberry', 'kiwi']",
       "comparison": "included",
-      "timeout": 10,
+      "timeout": 1,
       "points": 1
     },
     {
