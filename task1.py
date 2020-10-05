@@ -24,4 +24,18 @@ The animal at that index is Dog
 
 
 
-animals =
+animals =("Cat","Fish","Dog","Bear","Turtle")
+def SortTuple(animals): 
+      
+    n = len(animals) 
+      
+    for i in range(n): 
+        for j in range(n-i-1): 
+              
+            if animals[j][0] > animals[j + 1][0]: 
+                animals[j], animals[j + 1] = animals[j + 1], animals[j] 
+                  
+    return animals
+     
+          
+print(SortTuple(animals))
