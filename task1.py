@@ -24,4 +24,4 @@ The animal at that index is Dog
 
 
 
-tup =("Cat","Fish","Dog","Bear","Turtle")
+animals =("Cat","Fish","Dog","Bear","Turtle")
