@@ -24,18 +24,18 @@ The animal at that index is Dog
 
 
 
-animals =("Cat","Fish","Dog","Bear","Turtle")
-def SortTuple(animals): 
+tup =("Cat","Fish","Dog","Bear","Turtle")
+def SortTuple(tup): 
       
-    n = len(animals) 
+    n = len(tup) 
       
     for i in range(n): 
         for j in range(n-i-1): 
               
-            if animals[j][0] > animals[j + 1][0]: 
-                animals[j], animals[j + 1] = animals[j + 1], animals[j] 
+            if tup[j][0] > tup[j + 1][0]: 
+                tup[j], tup[j + 1] = tup[j + 1], tup[j] 
                   
-    return animals
+    return tup
      
           
-print(SortTuple(animals))
+print(SortTuple(tup))
