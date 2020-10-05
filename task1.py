@@ -24,6 +24,6 @@ The animal at that index is Dog
 
 
 
-MyList =["Cat","Fish","Dog","Bear","Turtle"}
+MyList =["Cat","Fish","Dog","Bear","Turtle"]
 MyList.sort() 
 print('Sorted list:', MyList)
