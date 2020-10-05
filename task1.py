@@ -25,3 +25,4 @@ The animal at that index is Dog
 
 
 animals =("Cat","Fish","Dog","Bear","Turtle")
+animals.sort() 
