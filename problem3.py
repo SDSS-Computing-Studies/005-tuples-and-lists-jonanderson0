@@ -25,20 +25,11 @@ The largest number you entered is 92
 """
 list1=[]
 
-while (-1
-in
-list1)==False:
+while (-1 in list1)==False:
+    in1=int(input("Enter an integer: "))
+    list1.append(in1)
 
-in1=int(input("Enter
- an integer: "))
-
-list1.append(in1)
-
-if (-1
-in
-list1)==True:
-
-list1.sort()
-
-print("The largest number you entered is "+str(list1[-1]))
+if (-1 in list1)==True:
+    list1.sort()
+    print("The largest number you entered is "+str(list1[-1]))
 
