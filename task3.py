@@ -12,7 +12,7 @@ string containing the 2 numbers:
 example:
 The smallest number is 3 and the largest number is 9
 """
-
+myList = [ 3,6,5,4,6,7,8,6,5,9,4,5 ]
 myList.sort()
 low = myList[0]
 high = myList[-1]
