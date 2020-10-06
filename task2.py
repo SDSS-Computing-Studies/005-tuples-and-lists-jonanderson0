@@ -23,3 +23,9 @@ Enter a word: virus
 
 ['apple', 'worm', 'dollar', 'shingle', 'virus']
 """
+count=0
+brc=[]
+for i in range(0,5):
+  word =input("Enter word: ").strip()
+  brc.insert(i,word)
+print(brc)
