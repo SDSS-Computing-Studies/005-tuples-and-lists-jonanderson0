@@ -19,3 +19,7 @@ Enter the replacement:Dan
 ['Alain', 'Brian', 'Chris', 'Justin', 'Angela', 'Dan']
 
 """
+people=['Alain', 'Brian', 'Chris', 'Justin', 'Angela', 'Rick']
+print(people)
+people[5] = 'Dan'
+print(people)
