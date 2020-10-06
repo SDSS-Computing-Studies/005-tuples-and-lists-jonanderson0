@@ -22,5 +22,5 @@ Enter the replacement:Dan
 people=['Alain', 'Brian', 'Chris', 'Justin', 'Angela', 'Rick']
 print(people)
 
-people[5] = 'Dan'
+people[0] = 'Dan'
 print(people)
