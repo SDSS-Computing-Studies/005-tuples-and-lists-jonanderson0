@@ -24,6 +24,6 @@ word not in list
 
 """
 
-fruit = ["apple","cherry","kiwi","apple","banana","strawberry","kiwi","blueberry","kiwi"]
-
+fruit = ["apple","cherry","kiwi","apple","banana","strawberry","kiwi","blueberry","kiwi",]
+append("tomato")
 print(fruit)
