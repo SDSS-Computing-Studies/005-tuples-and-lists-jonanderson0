@@ -21,7 +21,6 @@ Enter the replacement:Dan
 """
 people=['Alain', 'Brian', 'Chris', 'Justin', 'Angela', 'Rick']
 print(people)
-print("Choose a person from the list to replace:Rick")
-print("Enter the replacement:Dan")
+
 people[5] = 'Dan'
 print(people)
